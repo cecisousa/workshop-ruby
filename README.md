@@ -4,16 +4,16 @@
 ## Informações relevantes:
 
 ### Sites utilizados durante o workshop:
-https://repl.it/languages/ruby
-http://ruby-workshop.lewagon.com/
+- https://repl.it/languages/ruby
+- http://ruby-workshop.lewagon.com/
 
 ### Para estudar:
-https://www.codecademy.com/learn/learn-ruby
-https://getmimo.com/
-https://www.sololearn.com/
+- https://www.codecademy.com/learn/learn-ruby
+- https://getmimo.com/
+- https://www.sololearn.com/
 
 ### Documentação:
-https://devdocs.io/ruby~2.5/
+- https://devdocs.io/ruby~2.5/
 
 ## Introdução: 
 
@@ -63,10 +63,10 @@ programmer = true
 - Usa-se snake case, como:
 
 ```
-	- first_name = "Cecilia"
-	- last_name = "Sousa"
-	- full name = first_name + " " + last_name
-	- full_name = "#{first_name} #{last_name}"
+first_name = "Cecilia"
+last_name = "Sousa"
+full name = first_name + " " + last_name
+full_name = "#{first_name} #{last_name}"
 ```
 
 ### 5. Methods in Ruby:
@@ -75,7 +75,9 @@ programmer = true
 def method_name (parameter)
 // instructions
 end
+```
 
+```
 def hello (name)
 	puts "Hello #{name}!"
 end
@@ -105,19 +107,25 @@ end
 if condition
 	// instructions
 end
+```
 
+```
 weather = "rainy"
 if weather == "rainy"
 	print "Take an umbrella!"
 end
+```
 
+```
 weather = "sunny"
 if weather == "rainy"
 	print "Take an umbrella!"
 else
 	print "Go out!"
 end
+```
 
+```
 weather = "stormy"
 if weather == "rainy"
 	print "Take an umbrella!"
