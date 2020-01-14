@@ -21,7 +21,7 @@ Ruby possui alguns tipos de datatypes para representar texto, número, lista, et
 
 ### 1. String / String Methods:
 
-```
+```ruby
 "oi".upcase = "OI"
 "OI".downcase = "oi"
 "oI".capitalize = "Oi"
@@ -31,7 +31,7 @@ Ruby possui alguns tipos de datatypes para representar texto, número, lista, et
 
 ### 2. Fixnum (number) /Fixnum Methods:
 
-```
+```ruby
 2 + 2 = 4
 10 -3 = 7
 5 * 2 = 10
@@ -43,7 +43,7 @@ Ruby possui alguns tipos de datatypes para representar texto, número, lista, et
 
 ### 3. Boolean
 
-```
+```ruby
 2 == 2 [true]
 5 < 2 [false]
 "hi" == "HI" [false]
@@ -52,7 +52,7 @@ Ruby possui alguns tipos de datatypes para representar texto, número, lista, et
 
 ### 4. Variáveis
 
-```
+```ruby
 name = "Cecilia"
 age = 22
 programmer = true
@@ -62,7 +62,7 @@ programmer = true
 - Para checar o tipo de dado, usar nome_da_variavel.class (ele retorna se é Integer, String, TrueClass, etc.)
 - Usa-se snake case, como:
 
-```
+```ruby
 first_name = "Cecilia"
 last_name = "Sousa"
 full name = first_name + " " + last_name
@@ -71,15 +71,15 @@ full_name = "#{first_name} #{last_name}"
 
 ### 5. Methods in Ruby:
 
-```
+```ruby
 def method_name (parameter)
-// instructions
+  // instructions
 end
 ```
 
-```
+```ruby
 def hello (name)
-	puts "Hello #{name}!"
+  puts "Hello #{name}!"
 end
 ```
 
@@ -103,36 +103,36 @@ end
 
 ### 7. Conditionals
 
-```
+```ruby
 if condition
-	// instructions
+  // instructions
 end
 ```
 
-```
+```ruby
 weather = "rainy"
 if weather == "rainy"
-	print "Take an umbrella!"
+  print "Take an umbrella!"
 end
 ```
 
-```
+```ruby
 weather = "sunny"
 if weather == "rainy"
-	print "Take an umbrella!"
+  print "Take an umbrella!"
 else
-	print "Go out!"
+  print "Go out!"
 end
 ```
 
-```
+```ruby
 weather = "stormy"
 if weather == "rainy"
-	print "Take an umbrella!"
+  print "Take an umbrella!"
 elsif weather == "stormy"
-	print "Stay home"
+  print "Stay home"
 else 
-	print "Go out!"
+  print "Go out!"
 end
 ```
 
